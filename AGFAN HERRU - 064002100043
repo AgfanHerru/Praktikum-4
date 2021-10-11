@@ -1,0 +1,9 @@
+x = int(input("masukan angkanya : "))
+
+while x > 0:
+    for i in range(x):
+        print(x , end="")
+    print()
+    x -=1                        
+
+print("ini hasilnya angkanya")
